@@ -11,7 +11,7 @@ app.get('/', (req, res)=>{
 
 app.get('/download', (req, res)=>{
     res.status(200);
-    res.sendFile(resolve("./cloud/core.jar"))
+    res.sendFile(resolve("./cloud/revisoro-1.0-SNAPSHOT.jar"))
 });
 
 app.get('/packages', (req, res)=>{
